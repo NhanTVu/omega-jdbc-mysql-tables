@@ -1,20 +1,17 @@
 
-//  Class:          CSE3330
-//  Semester:       Spring 2018
-//  Student Name:   Vu, Nhan, ntv3930
-//  Student ID:     1001193930
-//  Assignment:     project #4
+//  Made:   	Spring 2018
+//  Name:	Vu, Nhan
 
 import java.util.*; 
 import java.io.*;
 import java.sql.*;
 import java.text.*;
 
-final class ntv3930_P4{
+final class queries2{
     
-    final static String user = /*getInput("Username: ");//*/"ntv3930";
-    final static String password = /*getInput("Password: ");//*/"Apple123";
-    final static String db = /*getInput("Database name: ");//*/"ntv3930";
+    final static String user = getInput("Username: ");//ex: lxv3930
+    final static String password = getInput("Password: ");//ex: orange123
+    final static String db = getInput("Database name: ");//ex: lxv3930;
     final static String jdbc = "jdbc:mysql://localhost:3306/"+db+"?user="+user+"&password="+password;
 
     static Connection con;
